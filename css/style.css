@@ -110,8 +110,9 @@
 .section-pricing{
        
    
-        height: 40.5rem;
-        padding-top: 25.5rem;
+        height: 45.5rem;
+        padding-top: 35.5rem;
+        margin-top: 15rem;
 }
 
 .title-pricing{
@@ -133,7 +134,7 @@
 
 
 
-@media (max-width:1350px){
+@media (max-width:1750px){
      
     .section-slide{
           height: 940px;
@@ -142,15 +143,7 @@
     }
 }
 
-@media screen and (max-width:1180px){
-    .section-pricing{
-       
-        padding-top: 15.5rem;
-      
-       
-    }
-         
-}
+
 
 
 @media screen and (max-width:991px) {
@@ -170,54 +163,10 @@
 }
 
 
-@media screen and (max-width:767px){
-    .section-pricing{
-        height: 60.5rem;
-        padding-top: 11.5rem;
-      
-       
-    }
-
-    .section-slide{
-        margin-bottom: 5%;
-        height: 27.5rem;
-       
-   }
-
-   .pricing-top{
-        margin-top: 5%;
-   }
-    .section-blog{
-        margin-top: 25%;
-
-    }
-}
 
 
 
-@media screen and (max-width:575px){
-    .section-pricing{
-        height: 70.5rem;
-        padding-top: 5.5rem;
-      
-       
-    }
 
-    .section-slide{
-     
-        height: 20.5rem;
-        margin-top: 25.5rem;
-       
-   }
-
-   .pricing-top{
-        margin-top: 3%;
-   }
-    .section-blog{
-        margin-top: 15rem;
-
-    }
-}
 
 
 
@@ -232,4 +181,86 @@
 
 html,body{
     font-family: 'Ubuntu', sans-serif;
+}
+
+
+@media screen and (max-width:1650px){
+    .section-pricing{
+        height: 45rem;
+        padding-top: 30rem;
+    }
+}
+
+
+
+@media screen and (max-width:1426px){
+    .section-pricing{
+        height: 45rem;
+        padding-top: 15rem;
+    }
+}
+
+@media screen and (max-width:1126px){
+    .section-pricing{
+        height: 35rem;
+        padding-top: 12rem;
+        margin-top: 0;
+    }
+}
+
+
+@media screen and (max-width:992px){
+    .section-pricing{
+        height: 45rem;
+        padding-top: 25rem;
+        margin-top: 0;
+    }
+  
+}
+
+@media screen and (max-width:767px){
+    .section-pricing{
+        height: 45rem;
+        padding-top: 20rem;
+        margin-top: 0;
+    }
+    .section-slide{
+        margin-bottom: 5%;
+        height: 27.5rem;
+       
+   }
+
+   .pricing-top{
+        margin-top: 5%;
+   }
+    .section-blog{
+        margin-top: 30rem;
+
+    }
+}
+
+
+@media screen and (max-width:575px){
+    .section-pricing{
+        height: 70.5rem;
+        padding-top: 25rem;
+      
+       
+    }
+
+    .section-slide{
+     
+        height: 20.5rem;
+        margin-top: 23.5rem;
+       
+   }
+
+   .pricing-top{
+        margin-top: 3%;
+   }
+    .section-blog{
+        margin-top: 27rem;
+        
+
+    }
 }
